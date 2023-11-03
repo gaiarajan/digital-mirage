@@ -6,24 +6,16 @@ using FMOD.Studio;
 using FMODUnity;
 public class SoundManager : MonoBehaviour
 {
-
-    public GameObject speaker1;
-    public GameObject speaker2;
-    public GameObject speaker3;
-    public GameObject speaker4;
+    // Game Objects
+    public GameObject fountain;
     
-    private FMOD.Studio.EventInstance speaker1Instance;
-    private FMOD.Studio.EventInstance speaker2Instance;
-    private FMOD.Studio.EventInstance speaker3Instance;
-    private FMOD.Studio.EventInstance speaker4Instance;
+    // Event Instances
+    private FMOD.Studio.EventInstance fountainInstance;
     
     // Start is called before the first frame update
     void Start()
     {
-        speaker1Instance = AmbientStart(speaker1, "event:/Starter_Texture");
-        //speaker2Instance = AmbientStart(speaker2, "event:/Starter_Texture");
-        speaker3Instance = AmbientStart(speaker3, "event:/Starter_Texture");
-        //speaker4Instance = AmbientStart(speaker4, "event:/Starter_Texture");
+        fountainInstance = AmbientStart(fountain, "event:/Fountain");
     }
     
     // Update is called once per frame
