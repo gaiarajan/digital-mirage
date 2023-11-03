@@ -48,6 +48,8 @@ namespace Unity.VRTemplate
                 if (m_Curve != null)
                     m_Curve.SetActive(false);
             }
+            m_LazyTooltip = null;
+            m_Curve = null;
         }
 
         public void GazeHoverStart()
