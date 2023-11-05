@@ -640,8 +640,8 @@ MonoBehaviour:
       Value: 
       HasValue: 0
     SpeakerMode:
-      Value: 0
-      HasValue: 0
+      Value: 3
+      HasValue: 1
     VirtualChannelCount:
       Value: 0
       HasValue: 0
@@ -679,8 +679,12 @@ MonoBehaviour:
   - fd7c55dab0fce234b8c25f6ffca523c1
   - 52eb9df5db46521439908db3a29a1bbb
   codecChannels:
-    Value: []
-    HasValue: 0
+    Value:
+    - format: 0
+      channels: 32
+    - format: 1
+      channels: 0
+    HasValue: 1
 --- !u!114 &4520087765149651335
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -798,8 +802,9 @@ MonoBehaviour:
       Value: 0
       HasValue: 0
     Plugins:
-      Value: []
-      HasValue: 0
+      Value:
+      - resonanceaudio
+      HasValue: 1
     StaticPlugins:
       Value: []
       HasValue: 0
