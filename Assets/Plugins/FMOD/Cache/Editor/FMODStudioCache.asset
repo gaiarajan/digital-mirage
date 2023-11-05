@@ -1,100 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!114 &-6295192588616918690
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
-  m_Name: bank:/Master.strings.bank
-  m_EditorClassIdentifier: 
-  Path: Assets/Sound/FMODBanks/Mobile/Master.strings.bank
-  Name: Master.strings
-  StudioPath: bank:/Master.strings
-  lastModified: 638348063393259558
-  FileSizes:
-  - Name: 
-    Value: 860
-  Exists: 1
---- !u!114 &-6202690018494956403
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
-  m_Name: bank:/Music&Ambience.bank
-  m_EditorClassIdentifier: 
-  Path: Assets/Sound/FMODBanks/Mobile/Music&Ambience.bank
-  Name: Music&Ambience
-  StudioPath: bank:/Music&Ambience
-  lastModified: 638348063393349541
-  FileSizes: []
-  Exists: 1
---- !u!114 &-5256612870165421341
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
-  m_Name: bank:/Master.strings.bank
-  m_EditorClassIdentifier: 
-  Path: Assets/Sound/FMODBanks/Mobile/Master.strings.bank
-  Name: Master.strings
-  StudioPath: bank:/Master.strings
-  lastModified: 638346274509469128
-  FileSizes:
-  - Name: 
-    Value: 860
-  Exists: 1
---- !u!114 &-4702324697087518144
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
-  m_Name: bank:/SFX.bank
-  m_EditorClassIdentifier: 
-  Path: Assets/Sound/FMODBanks/Mobile/SFX.bank
-  Name: SFX
-  StudioPath: bank:/SFX
-  lastModified: 638346266929884014
-  FileSizes: []
-  Exists: 1
---- !u!114 &-3612537795852117376
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
-  m_Name: bank:/Music&Ambience.bank
-  m_EditorClassIdentifier: 
-  Path: Assets/Sound/FMODBanks/Mobile/Music&Ambience.bank
-  Name: Music&Ambience
-  StudioPath: bank:/Music&Ambience
-  lastModified: 638346274509543421
-  FileSizes: []
-  Exists: 1
---- !u!114 &-317561686725374714
+--- !u!114 &-3417767585889415788
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -113,10 +19,10 @@ MonoBehaviour:
     Data3: -1630322533
     Data4: -87954786
   Banks:
-  - {fileID: 6648327298683178099}
+  - {fileID: 6191291191988439458}
   IsStream: 1
   Is3D: 1
-  IsOneShot: 1
+  IsOneShot: 0
   Parameters: []
   MinDistance: 1
   MaxDistance: 50
@@ -134,20 +40,20 @@ MonoBehaviour:
   m_Name: FMODStudioCache
   m_EditorClassIdentifier: 
   EditorBanks:
-  - {fileID: -6295192588616918690}
-  - {fileID: 3325207870162004958}
-  - {fileID: -6202690018494956403}
-  - {fileID: 6648327298683178099}
+  - {fileID: 4957163477148670547}
+  - {fileID: 1464444321584253451}
+  - {fileID: 1350012321014060825}
+  - {fileID: 6191291191988439458}
   EditorEvents:
-  - {fileID: -317561686725374714}
+  - {fileID: -3417767585889415788}
   EditorParameters: []
   MasterBanks:
-  - {fileID: 3325207870162004958}
+  - {fileID: 1464444321584253451}
   StringsBanks:
-  - {fileID: -6295192588616918690}
-  cacheTime: 638348063394389598
+  - {fileID: 4957163477148670547}
+  cacheTime: 638348071896278641
   cacheVersion: 131608
---- !u!114 &908547450548703968
+--- !u!114 &1350012321014060825
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -156,25 +62,16 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Fountain
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Music&Ambience.bank
   m_EditorClassIdentifier: 
-  Path: event:/Fountain
-  Guid:
-    Data1: -1144804020
-    Data2: 1327739187
-    Data3: -1630322533
-    Data4: -87954786
-  Banks:
-  - {fileID: -4702324697087518144}
-  IsStream: 1
-  Is3D: 1
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 50
-  Length: 86000
---- !u!114 &3325207870162004958
+  Path: Assets/Sound/FMODBanks/Mobile/Music&Ambience.bank
+  Name: Music&Ambience
+  StudioPath: bank:/Music&Ambience
+  lastModified: 638346274509543421
+  FileSizes: []
+  Exists: 1
+--- !u!114 &1464444321584253451
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -189,10 +86,10 @@ MonoBehaviour:
   Path: Assets/Sound/FMODBanks/Mobile/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 638348063393109589
+  lastModified: 638348071896025651
   FileSizes: []
   Exists: 1
---- !u!114 &4253644260975660452
+--- !u!114 &4957163477148670547
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -202,15 +99,17 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
-  m_Name: bank:/Master.bank
+  m_Name: bank:/Master.strings.bank
   m_EditorClassIdentifier: 
-  Path: Assets/Sound/FMODBanks/Mobile/Master.bank
-  Name: Master
-  StudioPath: bank:/Master
-  lastModified: 638346274509448463
-  FileSizes: []
+  Path: Assets/Sound/FMODBanks/Mobile/Master.strings.bank
+  Name: Master.strings
+  StudioPath: bank:/Master.strings
+  lastModified: 638348049576684814
+  FileSizes:
+  - Name: 
+    Value: 860
   Exists: 1
---- !u!114 &6648327298683178099
+--- !u!114 &6191291191988439458
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -225,6 +124,6 @@ MonoBehaviour:
   Path: Assets/Sound/FMODBanks/Mobile/SFX.bank
   Name: SFX
   StudioPath: bank:/SFX
-  lastModified: 638348063394389598
+  lastModified: 638348071896278641
   FileSizes: []
   Exists: 1
