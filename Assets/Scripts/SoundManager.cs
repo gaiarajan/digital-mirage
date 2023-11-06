@@ -8,14 +8,18 @@ public class SoundManager : MonoBehaviour
 {
     // Game Objects
     public GameObject fountain;
+    public GameObject guitar;
+    
     
     // Event Instances
     private FMOD.Studio.EventInstance fountainInstance;
+    private FMOD.Studio.EventInstance guitarInstance;
     
     // Start is called before the first frame update
     void Start()
     {
         fountainInstance = AmbientStart(fountain, "event:/Fountain");
+        guitarInstance = AmbientStart(guitar, "event:/Guitar");
     }
     
     // Update is called once per frame
