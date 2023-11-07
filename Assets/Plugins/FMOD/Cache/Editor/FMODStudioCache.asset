@@ -1,5 +1,53 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8241875973356011318
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Fountain/Fountain_Occlusion
+  m_EditorClassIdentifier: 
+  Name: Fountain_Occlusion
+  StudioPath: 
+  Min: 0
+  Max: 10
+  Default: 0
+  ID:
+    data1: 1170489803
+    data2: 2875345019
+  Type: 0
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
+--- !u!114 &-7416738059462134474
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Guitar/Guitar_Occlusion
+  m_EditorClassIdentifier: 
+  Name: Guitar_Occlusion
+  StudioPath: 
+  Min: 0
+  Max: 10
+  Default: 0
+  ID:
+    data1: 3968256013
+    data2: 2019620457
+  Type: 0
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
 --- !u!114 &-7133478455089507985
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -23,7 +71,8 @@ MonoBehaviour:
   IsStream: 1
   Is3D: 1
   IsOneShot: 0
-  Parameters: []
+  Parameters:
+  - {fileID: -7416738059462134474}
   MinDistance: 1
   MaxDistance: 20
   Length: 150926
@@ -42,7 +91,7 @@ MonoBehaviour:
   Path: Assets/Sound/FMODBanks/Mobile/SFX.bank
   Name: SFX
   StudioPath: bank:/SFX
-  lastModified: 638348141071729150
+  lastModified: 638349770505586890
   FileSizes: []
   Exists: 1
 --- !u!114 &-500345935634886083
@@ -60,7 +109,7 @@ MonoBehaviour:
   Path: Assets/Sound/FMODBanks/Mobile/Music&Ambience.bank
   Name: Music&Ambience
   StudioPath: bank:/Music&Ambience
-  lastModified: 638348130548890877
+  lastModified: 638349728500813090
   FileSizes: []
   Exists: 1
 --- !u!114 &11400000
@@ -88,7 +137,7 @@ MonoBehaviour:
   - {fileID: 4009363451982236036}
   StringsBanks:
   - {fileID: 230370374875531905}
-  cacheTime: 638348141071729150
+  cacheTime: 638349770505586890
   cacheVersion: 131608
 --- !u!114 &230370374875531905
 MonoBehaviour:
@@ -105,10 +154,10 @@ MonoBehaviour:
   Path: Assets/Sound/FMODBanks/Mobile/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638348117594599433
+  lastModified: 638349770505153149
   FileSizes:
   - Name: 
-    Value: 908
+    Value: 1028
   Exists: 1
 --- !u!114 &4009363451982236036
 MonoBehaviour:
@@ -125,7 +174,7 @@ MonoBehaviour:
   Path: Assets/Sound/FMODBanks/Mobile/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 638348140622199218
+  lastModified: 638349770505147973
   FileSizes: []
   Exists: 1
 --- !u!114 &4242028461281403512
@@ -151,7 +200,8 @@ MonoBehaviour:
   IsStream: 1
   Is3D: 1
   IsOneShot: 0
-  Parameters: []
+  Parameters:
+  - {fileID: -8241875973356011318}
   MinDistance: 1
   MaxDistance: 20
   Length: 86000

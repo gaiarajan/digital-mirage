@@ -9,6 +9,8 @@ namespace FMODUnity
         [SerializeField]
         private GameObject attenuationObject = null;
 
+        public LayerMask occlusionMask = -1;
+
 #if UNITY_PHYSICS_EXIST
         private Rigidbody rigidBody;
 #endif

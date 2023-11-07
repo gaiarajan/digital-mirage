@@ -7,7 +7,7 @@ using FMODUnity;
 public class SoundManager : MonoBehaviour
 {
     // Game Objects
-    public GameObject fountain;
+    /*public GameObject fountain;
     public GameObject guitar;
     
     
@@ -23,11 +23,11 @@ public class SoundManager : MonoBehaviour
     }
     
     // Update is called once per frame
-    void Update()
+    void Update() 
     {
         
     }
-    
+
     public FMOD.Studio.EventInstance AmbientStart(GameObject obj, string path)
     {
         if (obj != null)
@@ -39,6 +39,6 @@ public class SoundManager : MonoBehaviour
             return eventInstance;
         }
         return new EventInstance();
-    }
+    }*/
     
 }
