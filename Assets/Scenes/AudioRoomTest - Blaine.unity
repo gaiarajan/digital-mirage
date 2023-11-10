@@ -378,7 +378,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 112454247}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 6b0c5e63920ee4f55b7ec5248525af4b, type: 3}
   m_Name: 
@@ -389,8 +389,8 @@ MonoBehaviour:
   Ceiling: 4
   BackWall: 4
   FrontWall: 4
-  Reflectivity: 1
-  ReverbGainDb: 0
+  Reflectivity: 1.8
+  ReverbGainDb: 2
   ReverbBrightness: 0
   ReverbTime: 0.45
   Size: {x: 11.26, y: 5.66, z: 11.8}
