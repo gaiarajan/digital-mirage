@@ -275,7 +275,6 @@ GameObject:
   - component: {fileID: 112454252}
   - component: {fileID: 112454251}
   - component: {fileID: 112454250}
-  - component: {fileID: 112454249}
   - component: {fileID: 112454253}
   m_Layer: 0
   m_Name: Cube
@@ -296,31 +295,11 @@ Transform:
   m_LocalPosition: {x: 1.53, y: 0.56000006, z: 5.62}
   m_LocalScale: {x: 0.2, y: 0.2, z: 0.2}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 594609356}
+  - {fileID: 1289929756}
   m_Father: {fileID: 1249540686}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &112454249
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 112454247}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 40edd24a23854ed4b843be24a98df8f6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  fmodEvent:
-    Guid:
-      Data1: -723794492
-      Data2: 1309735113
-      Data3: 1304271000
-      Data4: 989587296
-    Path: event:/Guitar
-  occlusionEnabled: 1
-  occlusionParameterName: Guitar_Occlusion
-  occlusionIntensity: 10
 --- !u!65 &112454250
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -349,7 +328,7 @@ MeshRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 112454247}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -399,7 +378,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 112454247}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 6b0c5e63920ee4f55b7ec5248525af4b, type: 3}
   m_Name: 
@@ -414,7 +393,7 @@ MonoBehaviour:
   ReverbGainDb: 0
   ReverbBrightness: 0
   ReverbTime: 0.45
-  Size: {x: 11.3, y: 5.66, z: 11.8}
+  Size: {x: 11.26, y: 5.66, z: 11.8}
 --- !u!64 &147442221
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -503,6 +482,88 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 7568024665801742775, guid: a89f4e153c633fe4ba8f8a7eb8a1a225, type: 3}
+--- !u!1001 &594609355
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 112454248}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: e84b62ae96fa00946bcf78b569f8d440, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e84b62ae96fa00946bcf78b569f8d440, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e84b62ae96fa00946bcf78b569f8d440, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e84b62ae96fa00946bcf78b569f8d440, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e84b62ae96fa00946bcf78b569f8d440, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e84b62ae96fa00946bcf78b569f8d440, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e84b62ae96fa00946bcf78b569f8d440, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e84b62ae96fa00946bcf78b569f8d440, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e84b62ae96fa00946bcf78b569f8d440, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e84b62ae96fa00946bcf78b569f8d440, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e84b62ae96fa00946bcf78b569f8d440, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e84b62ae96fa00946bcf78b569f8d440, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e84b62ae96fa00946bcf78b569f8d440, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: e84b62ae96fa00946bcf78b569f8d440, type: 3}
+      propertyPath: m_StaticShadowCaster
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e84b62ae96fa00946bcf78b569f8d440, type: 3}
+      propertyPath: m_Name
+      value: guitar (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e84b62ae96fa00946bcf78b569f8d440, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: e84b62ae96fa00946bcf78b569f8d440, type: 3}
+--- !u!4 &594609356 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: e84b62ae96fa00946bcf78b569f8d440, type: 3}
+  m_PrefabInstance: {fileID: 594609355}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &606190923
 GameObject:
   m_ObjectHideFlags: 0
@@ -868,6 +929,10 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: -5020861261718822594, guid: 11c31d01a9ffa144f9e298d8a77fb88e, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: -5020861261718822594, guid: 11c31d01a9ffa144f9e298d8a77fb88e, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 1
       objectReference: {fileID: 0}
@@ -882,6 +947,10 @@ PrefabInstance:
     - target: {fileID: -3230359877503427227, guid: 11c31d01a9ffa144f9e298d8a77fb88e, type: 3}
       propertyPath: m_StaticShadowCaster
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -2693067490205670227, guid: 11c31d01a9ffa144f9e298d8a77fb88e, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: -2693067490205670227, guid: 11c31d01a9ffa144f9e298d8a77fb88e, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -926,6 +995,10 @@ PrefabInstance:
     - target: {fileID: 6116741800616860323, guid: 11c31d01a9ffa144f9e298d8a77fb88e, type: 3}
       propertyPath: m_StaticShadowCaster
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6757054215692586089, guid: 11c31d01a9ffa144f9e298d8a77fb88e, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 6757054215692586089, guid: 11c31d01a9ffa144f9e298d8a77fb88e, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -1414,7 +1487,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7179462289238023466, guid: 65eb6b98091a5734ba9d9ca871cef69a, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 2.15
+      value: 0.64
       objectReference: {fileID: 0}
     - target: {fileID: 7179462289238023466, guid: 65eb6b98091a5734ba9d9ca871cef69a, type: 3}
       propertyPath: m_LocalPosition.z
@@ -1491,6 +1564,60 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: -2725312947679576835, guid: a89f4e153c633fe4ba8f8a7eb8a1a225, type: 3}
+--- !u!1 &1289929755
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1289929756}
+  - component: {fileID: 1289929757}
+  m_Layer: 0
+  m_Name: SoundEmitter
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1289929756
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1289929755}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.50000006, y: -0.49999997, z: -0.50000006, w: 0.49999997}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 4, y: 4, z: 4}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 112454248}
+  m_LocalEulerAnglesHint: {x: 0, y: -90, z: -90}
+--- !u!114 &1289929757
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1289929755}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 40edd24a23854ed4b843be24a98df8f6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fmodEvent:
+    Guid:
+      Data1: -723794492
+      Data2: 1309735113
+      Data3: 1304271000
+      Data4: 989587296
+    Path: event:/Guitar
+  occlusionEnabled: 1
+  occlusionParameterName: Guitar_Occlusion
+  occlusionIntensity: 1
 --- !u!64 &1311157301
 MeshCollider:
   m_ObjectHideFlags: 0
