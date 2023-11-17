@@ -91,7 +91,7 @@ MonoBehaviour:
   Path: Assets/Sound/FMODBanks/Mobile/SFX.bank
   Name: SFX
   StudioPath: bank:/SFX
-  lastModified: 638351523708793221
+  lastModified: 638358132462628028
   FileSizes: []
   Exists: 1
 --- !u!114 &-500345935634886083
@@ -109,7 +109,7 @@ MonoBehaviour:
   Path: Assets/Sound/FMODBanks/Mobile/Music&Ambience.bank
   Name: Music&Ambience
   StudioPath: bank:/Music&Ambience
-  lastModified: 638350464885169509
+  lastModified: 638358136454762089
   FileSizes: []
   Exists: 1
 --- !u!114 &11400000
@@ -132,12 +132,13 @@ MonoBehaviour:
   EditorEvents:
   - {fileID: 4242028461281403512}
   - {fileID: -7133478455089507985}
+  - {fileID: 8976953715907184512}
   EditorParameters: []
   MasterBanks:
   - {fileID: 4009363451982236036}
   StringsBanks:
   - {fileID: 230370374875531905}
-  cacheTime: 638351523708793221
+  cacheTime: 638358136454762089
   cacheVersion: 131608
 --- !u!114 &230370374875531905
 MonoBehaviour:
@@ -154,10 +155,10 @@ MonoBehaviour:
   Path: Assets/Sound/FMODBanks/Mobile/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638350456723438222
+  lastModified: 638358132461871621
   FileSizes:
   - Name: 
-    Value: 980
+    Value: 1026
   Exists: 1
 --- !u!114 &4009363451982236036
 MonoBehaviour:
@@ -174,7 +175,7 @@ MonoBehaviour:
   Path: Assets/Sound/FMODBanks/Mobile/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 638350456723417097
+  lastModified: 638358132461859878
   FileSizes: []
   Exists: 1
 --- !u!114 &4242028461281403512
@@ -196,7 +197,7 @@ MonoBehaviour:
     Data3: -1630322533
     Data4: -87954786
   Banks:
-  - {fileID: -5114184735506970726}
+  - {fileID: -500345935634886083}
   IsStream: 1
   Is3D: 1
   IsOneShot: 0
@@ -205,3 +206,30 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 40
   Length: 86000
+--- !u!114 &8976953715907184512
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/GuitarNoRes
+  m_EditorClassIdentifier: 
+  Path: event:/GuitarNoRes
+  Guid:
+    Data1: -1945527392
+    Data2: 1189985408
+    Data3: -1605841263
+    Data4: -860703987
+  Banks:
+  - {fileID: -500345935634886083}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 150926
