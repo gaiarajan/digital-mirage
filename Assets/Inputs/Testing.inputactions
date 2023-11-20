@@ -1,0 +1,71 @@
+{
+    "name": "Testing",
+    "maps": [
+        {
+            "name": "Test control",
+            "id": "b1460a53-9b63-433a-af61-05d98e3e1517",
+            "actions": [
+                {
+                    "name": "Next Test",
+                    "type": "Button",
+                    "id": "c0beb382-b859-421c-92bd-5b9a81cf4808",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Guess",
+                    "type": "Button",
+                    "id": "b9e4026a-4903-4606-a53e-97ffac4648a6",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "9a38df02-30c5-47be-b825-6551224b4cf1",
+                    "path": "<Keyboard>/space",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Tester",
+                    "action": "Next Test",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "73a86028-fdeb-4310-b6db-f27837200cb0",
+                    "path": "<XRController>{LeftHand}/{GripButton}",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Tester",
+                    "action": "Next Test",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "a3fda074-3ce9-4187-b1bc-f181c83be47c",
+                    "path": "<XRController>{RightHand}/{TriggerButton}",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Tester",
+                    "action": "Guess",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": [
+        {
+            "name": "Tester",
+            "bindingGroup": "Tester",
+            "devices": []
+        }
+    ]
+}
