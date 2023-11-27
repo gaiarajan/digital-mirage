@@ -22,15 +22,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: ca24a405789052245bd720c5add9e8fa, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 18.959
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: ca24a405789052245bd720c5add9e8fa, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 2.69
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: ca24a405789052245bd720c5add9e8fa, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -15.15
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: ca24a405789052245bd720c5add9e8fa, type: 3}
       propertyPath: m_LocalRotation.w
@@ -66,7 +66,7 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: 9bda4d064ec547e4fa482b85cabea86b, type: 2}
     - target: {fileID: 919132149155446097, guid: ca24a405789052245bd720c5add9e8fa, type: 3}
       propertyPath: m_Name
-      value: chair_low
+      value: BT Chair
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
