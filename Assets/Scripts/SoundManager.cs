@@ -26,7 +26,7 @@ public class SoundManager : MonoBehaviour
     void Start()
     {
         n = sounds.Length;
-        Debug.Log(Application.persistentDataPath + "/test.txt");
+        Debug.Log(Directory.GetCurrentDirectory() + "/test.txt");
     }
     
     // Update is called once per frame
@@ -84,7 +84,7 @@ public class SoundManager : MonoBehaviour
         ++cycle;
         testRes += "End of test\n========================\n";
         if (cycle == n * 3) {
-            string path = Application.persistentDataPath + "/test.txt";
+            string path = Directory.GetCurrentDirectory() + "/test.txt";
             StreamWriter writer = new StreamWriter(path, true);
             writer.WriteLine("Test");
             writer.WriteLine(testRes);
