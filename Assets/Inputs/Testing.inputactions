@@ -57,6 +57,17 @@
                     "action": "Guess",
                     "isComposite": false,
                     "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "6d5de059-1e48-4218-8bed-1077afefbec1",
+                    "path": "<Keyboard>/#(-)",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Tester",
+                    "action": "Guess",
+                    "isComposite": false,
+                    "isPartOfComposite": false
                 }
             ]
         }

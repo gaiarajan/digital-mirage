@@ -13,6 +13,7 @@ public class SoundManager : MonoBehaviour
     public InputActionReference trigger;
     public InputActionReference next;
     private Stack<GameObject> actives = new Stack<GameObject>();
+    private Stack<GameObject> visualsActive = new Stack<GameObject>();
     public XRRayInteractor GuessRay;
 
     private bool test = false;
@@ -83,6 +84,11 @@ public class SoundManager : MonoBehaviour
         }
         ++cycle;
         testRes += "End of test\n========================\n";
+        if (cycle % n == 0) {
+            while(visualsActive.Count > 0) {
+                DeactivateVisual();
+            }
+        }
         if (cycle == n * 3) {
             string path = Directory.GetCurrentDirectory() + "/test.txt";
             StreamWriter writer = new StreamWriter(path, true);
@@ -103,20 +109,23 @@ public class SoundManager : MonoBehaviour
         int iter = cycle % n;
         attempt = 0;
         Activate(sounds[iter]);
-        switch(cycle / n)
+        if (cycle % n == 0)
         {
-            case 1:
-                for (int i = 0; i < visual1.Length; ++i)
-                {
-                    Activate(visual1[i]);
-                }
-                break;
-            case 2:
-                for (int i = 0; i < visual2.Length; ++i)
-                {
-                    Activate(visual2[i]);
-                }
-                break;
+            switch (cycle / n)
+            {
+                case 1:
+                    for (int i = 0; i < visual1.Length; ++i)
+                    {
+                        ActivateVisual(visual1[i]);
+                    }
+                    break;
+                case 2:
+                    for (int i = 0; i < visual2.Length; ++i)
+                    {
+                        ActivateVisual(visual2[i]);
+                    }
+                    break;
+            }
         }
     }
 
@@ -130,6 +139,19 @@ public class SoundManager : MonoBehaviour
     void Deactivate()
     {
         GameObject obj = actives.Pop();
+        obj.SetActive(false);
+    }
+
+    void ActivateVisual(GameObject obj)
+    {
+        obj.SetActive(true);
+        visualsActive.Push(obj);
+    }
+
+    //Deactivate top of the actives stack
+    void DeactivateVisual()
+    {
+        GameObject obj = visualsActive.Pop();
         obj.SetActive(false);
     }
 
