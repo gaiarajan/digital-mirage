@@ -106,10 +106,16 @@ public class SoundManager : MonoBehaviour
         switch(cycle / n)
         {
             case 1:
-                Activate(visual1[iter]);
+                for (int i = 0; i < visual1.Length; ++i)
+                {
+                    Activate(visual1[i]);
+                }
                 break;
             case 2:
-                Activate(visual2[iter]);
+                for (int i = 0; i < visual2.Length; ++i)
+                {
+                    Activate(visual2[i]);
+                }
                 break;
         }
     }
