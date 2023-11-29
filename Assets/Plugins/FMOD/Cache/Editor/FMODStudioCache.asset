@@ -74,7 +74,7 @@ MonoBehaviour:
   Parameters:
   - {fileID: -7416738059462134474}
   MinDistance: 1
-  MaxDistance: 20
+  MaxDistance: 50
   Length: 150926
 --- !u!114 &-5114184735506970726
 MonoBehaviour:
@@ -109,7 +109,7 @@ MonoBehaviour:
   Path: Assets/Sound/FMODBanks/Mobile/Music&Ambience.bank
   Name: Music&Ambience
   StudioPath: bank:/Music&Ambience
-  lastModified: 638358136454762089
+  lastModified: 638367915544559288
   FileSizes: []
   Exists: 1
 --- !u!114 &11400000
@@ -133,12 +133,13 @@ MonoBehaviour:
   - {fileID: 4242028461281403512}
   - {fileID: -7133478455089507985}
   - {fileID: 8976953715907184512}
+  - {fileID: 8191155896320551508}
   EditorParameters: []
   MasterBanks:
   - {fileID: 4009363451982236036}
   StringsBanks:
   - {fileID: 230370374875531905}
-  cacheTime: 638358136454762089
+  cacheTime: 638367915544559288
   cacheVersion: 131608
 --- !u!114 &230370374875531905
 MonoBehaviour:
@@ -155,10 +156,10 @@ MonoBehaviour:
   Path: Assets/Sound/FMODBanks/Mobile/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638358132461871621
+  lastModified: 638367915544081339
   FileSizes:
   - Name: 
-    Value: 1026
+    Value: 1062
   Exists: 1
 --- !u!114 &4009363451982236036
 MonoBehaviour:
@@ -175,7 +176,7 @@ MonoBehaviour:
   Path: Assets/Sound/FMODBanks/Mobile/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 638358132461859878
+  lastModified: 638367915544071128
   FileSizes: []
   Exists: 1
 --- !u!114 &4242028461281403512
@@ -206,6 +207,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 40
   Length: 86000
+--- !u!114 &8191155896320551508
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Guitar Beta
+  m_EditorClassIdentifier: 
+  Path: event:/Guitar Beta
+  Guid:
+    Data1: -292972846
+    Data2: 1225587255
+    Data3: -1134573634
+    Data4: -2031581357
+  Banks:
+  - {fileID: -500345935634886083}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 50
+  Length: 150926
 --- !u!114 &8976953715907184512
 MonoBehaviour:
   m_ObjectHideFlags: 0

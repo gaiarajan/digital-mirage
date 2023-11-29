@@ -20,13 +20,14 @@ public class SoundManager : MonoBehaviour
     private int cycle = 0;
     private int attempt = 0;
     public int attemptNumber = 3;
+    public int iterLen = 5;
     private int n;
     private string testRes = "";
     
     // Start is called before the first frame update
     void Start()
     {
-        n = sounds.Length;
+        n = iterLen;
         Debug.Log(Directory.GetCurrentDirectory() + "/test.txt");
     }
     
@@ -72,6 +73,7 @@ public class SoundManager : MonoBehaviour
     void GetGuess()
     { 
         GuessRay.TryGetCurrent3DRaycastHit(out hit);
+        Debug.Log(hit.point.ToString());
         testRes += "From: " + origin.transform.position.ToString() + "\nTo: " + hit.point.ToString();
         testRes += "\n";
     }
@@ -108,7 +110,7 @@ public class SoundManager : MonoBehaviour
         test = true;
         int iter = cycle % n;
         attempt = 0;
-        Activate(sounds[iter]);
+        Activate(sounds[cycle]);
         if (cycle % n == 0)
         {
             switch (cycle / n)
