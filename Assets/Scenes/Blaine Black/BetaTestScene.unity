@@ -3487,7 +3487,7 @@ GameObject:
   - component: {fileID: 797924970}
   - component: {fileID: 797924971}
   m_Layer: 0
-  m_Name: BetaTestSoundManager
+  m_Name: BetaTestManager
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
