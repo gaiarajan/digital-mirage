@@ -1,5 +1,32 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8718039931624698848
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Campfire
+  m_EditorClassIdentifier: 
+  Path: event:/Campfire
+  Guid:
+    Data1: 1246121514
+    Data2: 1100850348
+    Data3: 1556606371
+    Data4: -695172759
+  Banks:
+  - {fileID: -500345935634886083}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 33750
 --- !u!114 &-8241875973356011318
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -91,9 +118,36 @@ MonoBehaviour:
   Path: Assets/Sound/FMODBanks/Mobile/SFX.bank
   Name: SFX
   StudioPath: bank:/SFX
-  lastModified: 638360137781473729
+  lastModified: 638358132462628028
   FileSizes: []
   Exists: 1
+--- !u!114 &-4833706358541530554
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/River
+  m_EditorClassIdentifier: 
+  Path: event:/River
+  Guid:
+    Data1: 248522062
+    Data2: 1322166764
+    Data3: 482027443
+    Data4: 858974724
+  Banks:
+  - {fileID: -500345935634886083}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 40
+  Length: 30082
 --- !u!114 &-500345935634886083
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -109,7 +163,7 @@ MonoBehaviour:
   Path: Assets/Sound/FMODBanks/Mobile/Music&Ambience.bank
   Name: Music&Ambience
   StudioPath: bank:/Music&Ambience
-  lastModified: 638368485291308380
+  lastModified: 638370533887032418
   FileSizes: []
   Exists: 1
 --- !u!114 &11400000
@@ -134,12 +188,14 @@ MonoBehaviour:
   - {fileID: -7133478455089507985}
   - {fileID: 8976953715907184512}
   - {fileID: 8191155896320551508}
+  - {fileID: -8718039931624698848}
+  - {fileID: -4833706358541530554}
   EditorParameters: []
   MasterBanks:
   - {fileID: 4009363451982236036}
   StringsBanks:
   - {fileID: 230370374875531905}
-  cacheTime: 638368485291308380
+  cacheTime: 638370533887032418
   cacheVersion: 131608
 --- !u!114 &230370374875531905
 MonoBehaviour:
@@ -156,10 +212,10 @@ MonoBehaviour:
   Path: Assets/Sound/FMODBanks/Mobile/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638368485289184028
+  lastModified: 638370527589072768
   FileSizes:
   - Name: 
-    Value: 1062
+    Value: 1138
   Exists: 1
 --- !u!114 &4009363451982236036
 MonoBehaviour:
@@ -176,7 +232,7 @@ MonoBehaviour:
   Path: Assets/Sound/FMODBanks/Mobile/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 638351740977502538
+  lastModified: 638370527589062622
   FileSizes: []
   Exists: 1
 --- !u!114 &4242028461281403512
