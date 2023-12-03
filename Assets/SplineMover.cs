@@ -23,9 +23,9 @@ public class SplineMover : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        //SplineUtility.GetNearestPoint(spline, camera.position, out splinePosition, out interpolation);
+        SplineUtility.GetNearestPoint<Spline>(spline.Spline, camera.position, out splinePosition, out interpolation);
 
-        //emitterTransform = splinePosition;
+        emitterTransform.position = splinePosition;
     }
     
 }
