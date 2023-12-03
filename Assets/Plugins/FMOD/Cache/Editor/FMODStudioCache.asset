@@ -118,7 +118,7 @@ MonoBehaviour:
   Path: Assets/Sound/FMODBanks/Mobile/SFX.bank
   Name: SFX
   StudioPath: bank:/SFX
-  lastModified: 638358132462628028
+  lastModified: 638371501327964390
   FileSizes: []
   Exists: 1
 --- !u!114 &-4833706358541530554
@@ -148,6 +148,35 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 40
   Length: 30082
+--- !u!114 &-4672668365610652773
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Walking/SurfaceMaterial
+  m_EditorClassIdentifier: 
+  Name: SurfaceMaterial
+  StudioPath: 
+  Min: 0
+  Max: 4
+  Default: 0
+  ID:
+    data1: 562043971
+    data2: 3049044494
+  Type: 2
+  IsGlobal: 0
+  Labels:
+  - Wood
+  - Grass
+  - Water
+  - Concrete
+  - Stone
+  Exists: 1
 --- !u!114 &-500345935634886083
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -163,7 +192,7 @@ MonoBehaviour:
   Path: Assets/Sound/FMODBanks/Mobile/Music&Ambience.bank
   Name: Music&Ambience
   StudioPath: bank:/Music&Ambience
-  lastModified: 638370533887032418
+  lastModified: 638371501327039944
   FileSizes: []
   Exists: 1
 --- !u!114 &11400000
@@ -190,12 +219,13 @@ MonoBehaviour:
   - {fileID: 8191155896320551508}
   - {fileID: -8718039931624698848}
   - {fileID: -4833706358541530554}
+  - {fileID: 8733630963153790619}
   EditorParameters: []
   MasterBanks:
   - {fileID: 4009363451982236036}
   StringsBanks:
   - {fileID: 230370374875531905}
-  cacheTime: 638370533887032418
+  cacheTime: 638371501327964390
   cacheVersion: 131608
 --- !u!114 &230370374875531905
 MonoBehaviour:
@@ -212,10 +242,10 @@ MonoBehaviour:
   Path: Assets/Sound/FMODBanks/Mobile/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638370527589072768
+  lastModified: 638371501324967767
   FileSizes:
   - Name: 
-    Value: 1138
+    Value: 1222
   Exists: 1
 --- !u!114 &4009363451982236036
 MonoBehaviour:
@@ -232,7 +262,7 @@ MonoBehaviour:
   Path: Assets/Sound/FMODBanks/Mobile/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 638370527589062622
+  lastModified: 638371501324957431
   FileSizes: []
   Exists: 1
 --- !u!114 &4242028461281403512
@@ -290,6 +320,34 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 50
   Length: 150926
+--- !u!114 &8733630963153790619
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Walking
+  m_EditorClassIdentifier: 
+  Path: event:/Walking
+  Guid:
+    Data1: -1908664924
+    Data2: 1306741899
+    Data3: -826220663
+    Data4: 2135673683
+  Banks:
+  - {fileID: -5114184735506970726}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters:
+  - {fileID: -4672668365610652773}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
 --- !u!114 &8976953715907184512
 MonoBehaviour:
   m_ObjectHideFlags: 0
