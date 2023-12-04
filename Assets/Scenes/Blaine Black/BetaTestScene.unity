@@ -1743,7 +1743,7 @@ GameObject:
   - component: {fileID: 409552773}
   - component: {fileID: 409552774}
   m_Layer: 0
-  m_Name: Object4
+  m_Name: Object5
   m_TagString: Untagged
   m_Icon: {fileID: 5132851093641282708, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
@@ -1757,14 +1757,14 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 409552772}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0.048413906, z: 0, w: 0.9988274}
+  m_LocalRotation: {x: 0, y: 0.16074255, z: 0, w: 0.98699635}
   m_LocalPosition: {x: 4.42, y: 2.15, z: -5.04}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1719546938}
   m_Father: {fileID: 1894754692}
-  m_LocalEulerAnglesHint: {x: 0, y: 5.55, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 18.5, z: 0}
 --- !u!114 &409552774
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1784,7 +1784,7 @@ MonoBehaviour:
       Data2: 1225587255
       Data3: -1134573634
       Data4: -2031581357
-    Path: event:/Guitar Beta
+    Path: event:/GuitarBeta
   Event: 
   PlayEvent: 11
   StopEvent: 12
@@ -3035,7 +3035,7 @@ MonoBehaviour:
       Data2: 1189985408
       Data3: -1605841263
       Data4: -860703987
-    Path: event:/GuitarNoRes
+    Path: event:/GuitarBetaNoRes
   Event: 
   PlayEvent: 11
   StopEvent: 12
@@ -3524,18 +3524,21 @@ MonoBehaviour:
   - {fileID: 729509036}
   - {fileID: 967417377}
   - {fileID: 881302147}
+  - {fileID: 1312888718}
   - {fileID: 409552772}
   - {fileID: 1559397693}
+  - {fileID: 881302147}
+  - {fileID: 729509036}
+  - {fileID: 409552772}
   - {fileID: 1312888718}
-  - {fileID: 804146229}
-  - {fileID: 1220848929}
-  - {fileID: 1331328713}
-  - {fileID: 1924308659}
-  - {fileID: 1073405441}
-  - {fileID: 134985048}
-  - {fileID: 1308857797}
-  - {fileID: 283030763}
-  - {fileID: 1989759200}
+  - {fileID: 1559397693}
+  - {fileID: 967417377}
+  - {fileID: 1312888718}
+  - {fileID: 1559397693}
+  - {fileID: 881302147}
+  - {fileID: 967417377}
+  - {fileID: 729509036}
+  - {fileID: 409552772}
   visual1:
   - {fileID: 922394549}
   - {fileID: 1588197119}
@@ -3783,7 +3786,7 @@ MonoBehaviour:
       Data2: 1225587255
       Data3: -1134573634
       Data4: -2031581357
-    Path: event:/Guitar Beta
+    Path: event:/GuitarBeta
   Event: 
   PlayEvent: 11
   StopEvent: 12
@@ -3963,7 +3966,7 @@ MonoBehaviour:
       Data2: 1225587255
       Data3: -1134573634
       Data4: -2031581357
-    Path: event:/Guitar Beta
+    Path: event:/GuitarBeta
   Event: 
   PlayEvent: 11
   StopEvent: 12
@@ -4712,9 +4715,9 @@ GameObject:
   - component: {fileID: 1312888719}
   - component: {fileID: 1312888720}
   m_Layer: 0
-  m_Name: Object6
+  m_Name: Object4
   m_TagString: Untagged
-  m_Icon: {fileID: 5721338939258241955, guid: 0000000000000000d000000000000000, type: 0}
+  m_Icon: {fileID: 3936346786652291628, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 0
@@ -4726,14 +4729,14 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1312888718}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0.39153424, z: 0, w: 0.9201635}
-  m_LocalPosition: {x: -8.77, y: 2.15, z: -7.48}
+  m_LocalRotation: {x: 0.14386593, y: 0.38671917, z: -0.061215684, w: 0.9088474}
+  m_LocalPosition: {x: -4.25, y: 3.72, z: -3.13}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 895208898}
-  m_Father: {fileID: 1787694548}
-  m_LocalEulerAnglesHint: {x: 0, y: 46.1, z: 0}
+  m_Father: {fileID: 1894754692}
+  m_LocalEulerAnglesHint: {x: 17.99, y: 46.1, z: 0}
 --- !u!114 &1312888720
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4753,7 +4756,7 @@ MonoBehaviour:
       Data2: 1189985408
       Data3: -1605841263
       Data4: -860703987
-    Path: event:/GuitarNoRes
+    Path: event:/GuitarBetaNoRes
   Event: 
   PlayEvent: 11
   StopEvent: 12
@@ -5729,7 +5732,7 @@ GameObject:
   - component: {fileID: 1559397694}
   - component: {fileID: 1559397695}
   m_Layer: 0
-  m_Name: Object5
+  m_Name: Object6
   m_TagString: Untagged
   m_Icon: {fileID: -1412012063857583412, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
@@ -5766,11 +5769,11 @@ MonoBehaviour:
   CollisionTag: 
   EventReference:
     Guid:
-      Data1: -1945527392
-      Data2: 1189985408
-      Data3: -1605841263
-      Data4: -860703987
-    Path: event:/GuitarNoRes
+      Data1: -292972846
+      Data2: 1225587255
+      Data3: -1134573634
+      Data4: -2031581357
+    Path: event:/GuitarBeta
   Event: 
   PlayEvent: 11
   StopEvent: 12
@@ -5781,7 +5784,7 @@ MonoBehaviour:
   Params: []
   OverrideAttenuation: 0
   OverrideMinDistance: 1
-  OverrideMaxDistance: 20
+  OverrideMaxDistance: 50
 --- !u!1001 &1577508148
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6495,7 +6498,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1787694548
 Transform:
   m_ObjectHideFlags: 0
@@ -6509,7 +6512,6 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 1312888719}
   - {fileID: 804146230}
   - {fileID: 1220848930}
   - {fileID: 1331328714}
@@ -6768,6 +6770,7 @@ Transform:
   - {fileID: 729509037}
   - {fileID: 967417378}
   - {fileID: 881302148}
+  - {fileID: 1312888719}
   - {fileID: 409552773}
   - {fileID: 1559397694}
   m_Father: {fileID: 0}
@@ -7028,7 +7031,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1944985479
 Transform:
   m_ObjectHideFlags: 0
