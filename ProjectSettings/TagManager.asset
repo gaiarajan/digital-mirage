@@ -5,6 +5,11 @@ TagManager:
   serializedVersion: 2
   tags:
   - Anchor
+  - Grass
+  - Wood
+  - Water
+  - Concrete
+  - Stone
   layers:
   - Default
   - TransparentFX

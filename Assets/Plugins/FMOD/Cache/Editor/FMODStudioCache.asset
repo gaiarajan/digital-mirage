@@ -145,7 +145,7 @@ MonoBehaviour:
   Path: Assets/Sound/FMODBanks/Mobile/SFX.bank
   Name: SFX
   StudioPath: bank:/SFX
-  lastModified: 638372838678767429
+  lastModified: 638381142144841691
   FileSizes: []
   Exists: 1
 --- !u!114 &-4833706358541530554
@@ -195,7 +195,7 @@ MonoBehaviour:
   ID:
     data1: 562043971
     data2: 3049044494
-  Type: 2
+  Type: 1
   IsGlobal: 0
   Labels:
   - Wood
@@ -252,7 +252,7 @@ MonoBehaviour:
   - {fileID: 4009363451982236036}
   StringsBanks:
   - {fileID: 230370374875531905}
-  cacheTime: 638373959062961369
+  cacheTime: 638381142144841691
   cacheVersion: 131608
 --- !u!114 &230370374875531905
 MonoBehaviour:

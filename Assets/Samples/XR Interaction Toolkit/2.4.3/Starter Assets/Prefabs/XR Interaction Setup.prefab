@@ -301,3 +301,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   attenuationObject: {fileID: 0}
+  occlusionMask:
+    serializedVersion: 2
+    m_Bits: 4294967295

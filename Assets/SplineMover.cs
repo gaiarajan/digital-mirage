@@ -6,7 +6,7 @@ using UnityEngine.Splines;
 
 public class SplineMover : MonoBehaviour
 {
-    public SplineContainer spline;
+    /*public SplineContainer spline;
     public Transform camera;
 
     private float3 splinePosition;
@@ -26,6 +26,6 @@ public class SplineMover : MonoBehaviour
         SplineUtility.GetNearestPoint<Spline>(spline.Spline, camera.position, out splinePosition, out interpolation);
 
         emitterTransform.position = splinePosition;
-    }
+    } */
     
 }
