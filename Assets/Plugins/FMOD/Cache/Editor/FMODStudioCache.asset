@@ -271,7 +271,7 @@ MonoBehaviour:
   Path: Assets/Sound/FMODBanks/Mobile/Music&Ambience.bank
   Name: Music&Ambience
   StudioPath: bank:/Music&Ambience
-  lastModified: 638381716388605715
+  lastModified: 638381825855201676
   FileSizes: []
   Exists: 1
 --- !u!114 &11400000
@@ -306,7 +306,7 @@ MonoBehaviour:
   - {fileID: 4009363451982236036}
   StringsBanks:
   - {fileID: 230370374875531905}
-  cacheTime: 638381716388605715
+  cacheTime: 638381825855201676
   cacheVersion: 131608
 --- !u!114 &230370374875531905
 MonoBehaviour:
@@ -323,10 +323,34 @@ MonoBehaviour:
   Path: Assets/Sound/FMODBanks/Mobile/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638381707995735432
+  lastModified: 638381825847543766
   FileSizes:
   - Name: 
-    Value: 1348
+    Value: 1394
+  Exists: 1
+--- !u!114 &2243321220139837688
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Organ/Organ_Occlusion
+  m_EditorClassIdentifier: 
+  Name: Organ_Occlusion
+  StudioPath: 
+  Min: 0
+  Max: 10
+  Default: 0
+  ID:
+    data1: 1282404661
+    data2: 2026071297
+  Type: 0
+  IsGlobal: 0
+  Labels: []
   Exists: 1
 --- !u!114 &2589755162214062309
 MonoBehaviour:
@@ -370,7 +394,7 @@ MonoBehaviour:
   Path: Assets/Sound/FMODBanks/Mobile/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 638381707995721922
+  lastModified: 638381825847543766
   FileSizes: []
   Exists: 1
 --- !u!114 &4242028461281403512
@@ -421,13 +445,14 @@ MonoBehaviour:
     Data4: 401715939
   Banks:
   - {fileID: -500345935634886083}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters:
+  - {fileID: 2243321220139837688}
   MinDistance: 1
   MaxDistance: 20
-  Length: 0
+  Length: 92548
 --- !u!114 &8733630963153790619
 MonoBehaviour:
   m_ObjectHideFlags: 0
