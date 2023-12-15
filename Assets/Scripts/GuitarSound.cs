@@ -6,7 +6,7 @@ using UnityEngine;
 public class GuitarSound : MonoBehaviour
 {
     // FMOD Event Info
-    private FMOD.Studio.EventInstance guitarInstance;
+    private EventInstance guitarInstance;
     public FMODUnity.EventReference fmodEvent;
     
     // Occlusion Variables

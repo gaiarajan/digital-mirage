@@ -145,8 +145,32 @@ MonoBehaviour:
   Path: Assets/Sound/FMODBanks/Mobile/SFX.bank
   Name: SFX
   StudioPath: bank:/SFX
-  lastModified: 638381142144841691
+  lastModified: 638381680983210191
   FileSizes: []
+  Exists: 1
+--- !u!114 &-5026712553834066987
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Harp/Harp_Occlusion
+  m_EditorClassIdentifier: 
+  Name: Harp_Occlusion
+  StudioPath: 
+  Min: 0
+  Max: 10
+  Default: 0
+  ID:
+    data1: 3573658914
+    data2: 2103541187
+  Type: 0
+  IsGlobal: 0
+  Labels: []
   Exists: 1
 --- !u!114 &-4833706358541530554
 MonoBehaviour:
@@ -204,6 +228,34 @@ MonoBehaviour:
   - Concrete
   - Stone
   Exists: 1
+--- !u!114 &-1418347578532068745
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Harp
+  m_EditorClassIdentifier: 
+  Path: event:/Harp
+  Guid:
+    Data1: 1076558662
+    Data2: 1110719217
+    Data3: -1643855962
+    Data4: -1058784904
+  Banks:
+  - {fileID: -500345935634886083}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters:
+  - {fileID: -5026712553834066987}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 180000
 --- !u!114 &-500345935634886083
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -219,7 +271,7 @@ MonoBehaviour:
   Path: Assets/Sound/FMODBanks/Mobile/Music&Ambience.bank
   Name: Music&Ambience
   StudioPath: bank:/Music&Ambience
-  lastModified: 638373959062961369
+  lastModified: 638381716388605715
   FileSizes: []
   Exists: 1
 --- !u!114 &11400000
@@ -247,12 +299,14 @@ MonoBehaviour:
   - {fileID: 8733630963153790619}
   - {fileID: 2589755162214062309}
   - {fileID: -7514178821470677736}
+  - {fileID: 7915281316379551222}
+  - {fileID: -1418347578532068745}
   EditorParameters: []
   MasterBanks:
   - {fileID: 4009363451982236036}
   StringsBanks:
   - {fileID: 230370374875531905}
-  cacheTime: 638381142144841691
+  cacheTime: 638381716388605715
   cacheVersion: 131608
 --- !u!114 &230370374875531905
 MonoBehaviour:
@@ -269,10 +323,10 @@ MonoBehaviour:
   Path: Assets/Sound/FMODBanks/Mobile/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638373957511376143
+  lastModified: 638381707995735432
   FileSizes:
   - Name: 
-    Value: 1232
+    Value: 1348
   Exists: 1
 --- !u!114 &2589755162214062309
 MonoBehaviour:
@@ -316,7 +370,7 @@ MonoBehaviour:
   Path: Assets/Sound/FMODBanks/Mobile/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 638373957511362722
+  lastModified: 638381707995721922
   FileSizes: []
   Exists: 1
 --- !u!114 &4242028461281403512
@@ -347,6 +401,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 40
   Length: 86000
+--- !u!114 &7915281316379551222
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Organ
+  m_EditorClassIdentifier: 
+  Path: event:/Organ
+  Guid:
+    Data1: 559552579
+    Data2: 1279922059
+    Data3: 1814276994
+    Data4: 401715939
+  Banks:
+  - {fileID: -500345935634886083}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
 --- !u!114 &8733630963153790619
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -6,7 +6,7 @@ public class FountainSound : MonoBehaviour
 {
     // FMOD Event Info
     private FMOD.Studio.EventInstance fountainInstance;
-    public FMODUnity.EventReference fmodEvent;
+    public FMODUnity.EventReference fmodEventFountain;
     
     // Occlusion Variables
     [SerializeField] 
@@ -25,7 +25,7 @@ public class FountainSound : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        fountainInstance = FMODUnity.RuntimeManager.CreateInstance(fmodEvent);
+        fountainInstance = FMODUnity.RuntimeManager.CreateInstance(fmodEventFountain);
         fountainInstance.start();
     }
     

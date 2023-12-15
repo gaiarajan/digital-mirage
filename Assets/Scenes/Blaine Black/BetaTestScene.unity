@@ -2153,7 +2153,6 @@ Transform:
   - {fileID: 1010677882}
   - {fileID: 977155942}
   - {fileID: 5004770}
-  - {fileID: 425036133}
   - {fileID: 2146381127}
   - {fileID: 1411238592}
   m_Father: {fileID: 1022888715}
@@ -4953,7 +4952,7 @@ GameObject:
   m_Icon: {fileID: 5132851093641282708, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &409552773
 Transform:
   m_ObjectHideFlags: 0
@@ -5000,7 +4999,7 @@ MonoBehaviour:
   Params: []
   OverrideAttenuation: 0
   OverrideMinDistance: 1
-  OverrideMaxDistance: 50
+  OverrideMaxDistance: 20
 --- !u!4 &427524301 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2946464788375236118, guid: c7f9f62cda399484caa8f8b20e415aaf, type: 3}
@@ -5454,7 +5453,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4592956391713993908, guid: 65eb6b98091a5734ba9d9ca871cef69a, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5321043665317609848, guid: 65eb6b98091a5734ba9d9ca871cef69a, type: 3}
       propertyPath: m_EndPoint
@@ -8561,11 +8560,11 @@ MonoBehaviour:
   CollisionTag: 
   EventReference:
     Guid:
-      Data1: -1945527392
-      Data2: 1189985408
-      Data3: -1605841263
-      Data4: -860703987
-    Path: event:/GuitarBetaNoRes
+      Data1: -1144804020
+      Data2: 1327739187
+      Data3: -1630322533
+      Data4: -87954786
+    Path: event:/Fountain
   Event: 
   PlayEvent: 11
   StopEvent: 12
@@ -8576,7 +8575,7 @@ MonoBehaviour:
   Params: []
   OverrideAttenuation: 0
   OverrideMinDistance: 1
-  OverrideMaxDistance: 20
+  OverrideMaxDistance: 40
 --- !u!4 &730390164 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2871854915827847855, guid: 65eb6b98091a5734ba9d9ca871cef69a, type: 3}
@@ -9307,7 +9306,6 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 887190998}
   - {fileID: 213188880}
   - {fileID: 1981271089}
   - {fileID: 674658686}
@@ -9504,6 +9502,60 @@ Transform:
   - {fileID: 286815871}
   - {fileID: 1516614791}
   - {fileID: 238267876}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &807998152
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 807998154}
+  - component: {fileID: 807998153}
+  m_Layer: 0
+  m_Name: Fountain
+  m_TagString: Untagged
+  m_Icon: {fileID: 5721338939258241955, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!114 &807998153
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 807998152}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 67f9ab61eef30f74cb858d9eba6b0b2f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fmodEvent:
+    Guid:
+      Data1: -1144804020
+      Data2: 1327739187
+      Data3: -1630322533
+      Data4: -87954786
+    Path: event:/Fountain
+  occlusionEnabled: 1
+  occlusionParameterName: Fountain_Occlusion
+  occlusionIntensity: 0.25
+--- !u!4 &807998154
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 807998152}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.23, y: 4.06, z: -8.04}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &808220957
@@ -10517,7 +10569,7 @@ GameObject:
   m_Icon: {fileID: -964228994112308473, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &881302148
 Transform:
   m_ObjectHideFlags: 0
@@ -11043,7 +11095,7 @@ GameObject:
   m_Icon: {fileID: 2974397684917235467, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &967417378
 Transform:
   m_ObjectHideFlags: 0
@@ -11090,7 +11142,7 @@ MonoBehaviour:
   Params: []
   OverrideAttenuation: 0
   OverrideMinDistance: 1
-  OverrideMaxDistance: 50
+  OverrideMaxDistance: 20
 --- !u!1 &968808739
 GameObject:
   m_ObjectHideFlags: 0
@@ -14179,7 +14231,7 @@ GameObject:
   m_Icon: {fileID: 3936346786652291628, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1312888719
 Transform:
   m_ObjectHideFlags: 0
@@ -16529,7 +16581,6 @@ Transform:
   m_Children:
   - {fileID: 168941788}
   - {fileID: 1195893952}
-  - {fileID: 409852432}
   - {fileID: 523789768}
   - {fileID: 1554130740}
   - {fileID: 1290957030}
@@ -18197,7 +18248,7 @@ GameObject:
   m_Icon: {fileID: -1412012063857583412, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1559397694
 Transform:
   m_ObjectHideFlags: 0
@@ -25589,3 +25640,4 @@ SceneRoots:
   - {fileID: 83433394}
   - {fileID: 444387270}
   - {fileID: 804498310}
+  - {fileID: 807998154}
